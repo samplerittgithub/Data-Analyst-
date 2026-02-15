@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="card">
+          <img class="avatar" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo">
+
+          <h1 class="name">Jeganathan<br/>Duraisamy</h1>
+          <p class="role">Data Analyst | Fraud Risk &amp; Financial Analytics</p>
+
+          <div class="buttons">
+            <a class="btn" href="{{ site.github_url }}" target="_blank" rel="noopener">View GitHub</a>
+            <a class="btn" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="{{ site.cv_url | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+          </div>
+
+          <p class="tags">{{ site.tagline }}</p>
+        </div>
+      </aside>
+
+      <!-- Main content -->
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
