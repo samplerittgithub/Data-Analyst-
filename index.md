@@ -51,6 +51,8 @@ Dec 2022 - June 2023 | Delhi, India
 Strengthening advanced data modelling capabilities through hands-on **DAX optimisation**, complex data transformation workflows, and performance-tuned dashboard development. Focused on delivering stakeholder-ready reporting solutions with scalable **semantic models** and efficient **data architecture design**.
 
 
+---
+
 
 ## Selected Projects
 
