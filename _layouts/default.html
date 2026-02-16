@@ -9,21 +9,32 @@
 
   <body>
     <div class="page">
+
       <!-- Sidebar -->
       <aside class="sidebar">
         <div class="card">
-          <img class="avatar" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo">
 
+          <!-- Name -->
           <h1 class="name">Jeganathan<br/>Duraisamy</h1>
+
+          <!-- Profile Photo -->
+          <img class="avatar"
+               src="{{ '/assets/img/profile.jpg' | relative_url }}"
+               alt="Profile photo">
+
+          <!-- Role -->
           <p class="role">Data Analyst | Fraud Risk &amp; Financial Analytics</p>
 
+          <!-- Buttons -->
           <div class="buttons">
             <a class="btn" href="{{ site.github_url }}" target="_blank" rel="noopener">View GitHub</a>
             <a class="btn" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
             <a class="btn" href="{{ site.cv_url | relative_url }}" target="_blank" rel="noopener">Download CV</a>
           </div>
 
+          <!-- Tags -->
           <p class="tags">{{ site.tagline }}</p>
+
         </div>
       </aside>
 
@@ -31,6 +42,8 @@
       <main class="content">
         {{ content }}
       </main>
+
     </div>
   </body>
 </html>
+
