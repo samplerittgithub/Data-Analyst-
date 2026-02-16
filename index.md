@@ -94,12 +94,12 @@ Strengthening advanced data modelling capabilities through hands-on **DAX optimi
 
 <div class="project">
   <div class="project-title">
-    <a href="https://github.com/samplerittgithub/Diabetes-Prediction-Analysis" target="_blank" rel="noopener">
+    <a href="https://github.com/samplerittgithub/Diabetes-Prediction-Analysis-" target="_blank" rel="noopener">
       Diabetes Prediction Model
     </a>
   </div>
 
-  <a class="repo-link" href="https://github.com/samplerittgithub/Diabetes-Prediction-Analysis" target="_blank" rel="noopener">
+  <a class="repo-link" href="https://github.com/samplerittgithub/Diabetes-Prediction-Analysis-" target="_blank" rel="noopener">
     View Repository →
   </a>
 
