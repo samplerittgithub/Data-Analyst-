@@ -94,6 +94,15 @@ body {
   font-weight: 800;
 }
 
+.content h2 {
+  color: #111827;   /* strong black for section headers */
+  font-weight: 800;
+}
+
+.content h3 {
+  color: #2c7a9b;   /* blue for inner titles */
+  font-weight: 700;
+}
 
 /* Mobile */
 @media (max-width: 900px) {
