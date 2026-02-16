@@ -41,11 +41,12 @@ body {
 }
 
 .name {
-  margin: 0;
-  font-size: 34px;
+  margin: 0 0 18px 0; 
+  font-size: 28px;
   line-height: 1.05;
   font-weight: 800;
   color: #2c7a9b;
+  text-align: center;
 }
 
 .role {
