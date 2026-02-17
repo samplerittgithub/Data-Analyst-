@@ -2,7 +2,7 @@
 layout: default
 ---
  
-# Data Analyst | AI & Machine Learning Engineer  
+# Data Analyst | Fraud Risk & Financial Analytics 
 
 ## Technical Skills
 
